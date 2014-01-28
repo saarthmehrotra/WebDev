@@ -1,0 +1,15 @@
+div{
+	color: #74e571
+}
+
+nav{
+	color: #00FFFF
+}
+
+ol{
+	list-style-type: lower-alpha;
+}
+
+ul{
+	list-style-type: none;
+}
