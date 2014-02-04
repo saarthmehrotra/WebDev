@@ -34,16 +34,15 @@
     height: auto;
 }
 
+
 h2 {
     text-align: center;
 }
 
-img {
-   padding:5px;
-   border:5px solid #BA1820;
-}
 
-body {background-color:#d3d3d3;}
+body {
+    background-color:#070716;
+}
 
 /* GIVEN CODE FROM SKELETON*/
 
