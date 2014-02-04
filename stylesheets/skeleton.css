@@ -1,21 +1,49 @@
 /* MY STYLE SHEET */
 
-nav {
-    position : fixed;
-    top : 0;
-    width : 100%;
-    height : auto;\
-
-
+.container {
+    margin-top: 50px;
+}
+ 
+#nav {
+    margin: 13px 0 0 0;
+}
+ 
+#nav ul li{
+    display: inline;
+    margin: 0 20px 0 0;
+    margin-bottom: 130px;
+}
+ 
+#nav a {
+    text-decoration: none;
+}
+ 
+#nav a:hover {
+    text-decoration: underline;
 }
 
-nav ul li{
-    display: inline-block;
-    vertical-align: right;
-
+#headerImage img {
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: auto;
 }
 
+.feature img {
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+}
 
+h2 {
+    text-align: center;
+}
+
+img {
+   padding:5px;
+   border:5px solid #BA1820;
+}
+
+body {background-color:#d3d3d3;}
 
 /* GIVEN CODE FROM SKELETON*/
 
