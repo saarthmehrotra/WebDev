@@ -10,12 +10,13 @@
  
 #nav ul li{
     display: inline;
-    margin: 0 20px 0 0;
+    margin: 0 100px 0 0;
     margin-bottom: 130px;
 }
  
 #nav a {
     text-decoration: none;
+    position: fixed;
 }
  
 #nav a:hover {
@@ -34,14 +35,22 @@
     height: auto;
 }
 
+.hover img {
+    opacity:0.55;
+    filter:alpha(opacity=55); /* For IE8 and earlier */
+    }
+.hover img:hover
+{
+    opacity:1.0;
+    filter:alpha(opacity=100); /* For IE8 and earlier */
+}
 
 h2 {
     text-align: center;
 }
 
-
 body {
-    background-color:#070716;
+    background-color:#ADADAD;
 }
 
 /* GIVEN CODE FROM SKELETON*/
