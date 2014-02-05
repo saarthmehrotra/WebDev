@@ -35,6 +35,10 @@
     height: auto;
 }
 
+.title{
+    background-color: #070716;
+}
+
 .hover img {
     opacity:0.55;
     filter:alpha(opacity=55); /* For IE8 and earlier */
